@@ -1,0 +1,27 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.item {
+  margin-bottom: 20px;
+  padding: 16px;
+  border-radius: 20px;
+  animation: fadeIn 0.5s;
+  
+  &.salmon {
+    background-color: salmon;  
+  }
+  
+  &.aquamarine {
+    background-color: aquamarine;
+  }
+  
+  .quote {
+    padding-bottom: 10px;
+  }
+  
+  .author {
+    font-weight: bold;
+  }
+}
